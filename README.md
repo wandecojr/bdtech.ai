@@ -2,9 +2,11 @@
 Desafio Técnico – Hackathon Forecast Big Data 2025
 
 Objetivo:
-Desenvolver um modelo de previsão de vendas (forecast) para apoiar o varejo na reposição de produtos. A tarefa é prever a quantidade semanal de vendas por PDV (Ponto de Venda) /SKU Stock Keeping Unit
+Desenvolver um modelo de previsão de vendas (forecast) para apoiar o varejo na reposição de produtos. A tarefa é prever a quantidade semanal de vendas por PDV (Ponto de Venda) /SKU 
+Stock Keeping Unit (ou Unidade de Manutenção de Estoque) para as cinco semanas de janeiro/2023, utilizando como base o histórico de vendas de 2022.
 
-(ou Unidade de Manutenção de Estoque) para as cinco semanas de janeiro/2023, utilizando como base o histórico de vendas de 2022.
+##python: 
+Estou trabalhando com Python 3.13.5 (mesma versão usada do meu ambiente virtual  (venv_forecast_v*). Se você quiser reproduzir o ambiente exatamente, recomendo usar Python 3.13.x com python -m venv venv_forecast_v* 
 
 ##script:
 forecast_pipeline_v1.py
@@ -22,7 +24,7 @@ Este script implementa um pipeline de previsão utilizando técnicas de aprendiz
 - Treinamento do modelo LightGBM
 - Avaliação de desempenho do modelo
 - Geração de previsões
-- Salvamento dos resultados e logs
+- Salvamento do resultado
 
 ## Estrutura do Código
 1. **Importação de bibliotecas**: Importa pacotes essenciais para manipulação de dados, modelagem e avaliação.
@@ -37,11 +39,9 @@ Este script implementa um pipeline de previsão utilizando técnicas de aprendiz
 ## Como Executar
 
 
-1. Certifique-se de que todas as dependências estão instaladas (consulte o 
-`requirements.txt`).
+1. Certifique-se de que todas as dependências estão instaladas (consulte o `requirements.txt`).
     1.1 Shell
         python -m pip install -r requirements.txt
-
 
 2. Execute o script via terminal:
    
