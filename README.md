@@ -52,18 +52,19 @@ Este script implementa um pipeline de previsão utilizando técnicas de aprendiz
 ## Estrutura de Pastas Necessária
 
 ```
-├── dataset/
-│   └── train/
-│       └── parquet/
-│           ├── pdvs.parquet
-│           ├── produtos.parquet
-│           └── transacoes_2022.parquet
-├── results/
-│   └── jan2023_v1_sample.csv
-├── src/
-│   └── forecast_pipeline_v1.py
-├── requirements.txt
-|
+├── forecast/
+    ├── dataset/
+    │  └── train/
+    │       └── parquet/
+    │           ├── pdvs.parquet (arquivo nao existe)
+    │           ├── produtos.parquet (arquivo nao existe)
+    │           └── transacoes_2022.parquet (arquivo nao existe)
+    ├── results/
+    │  └── jan2023_v1_sample.csv (relatorio de avaliacao)
+    ├── src/
+    │   └── forecast_pipeline_v1.py (script)
+    ├── requirements.txt
+    |
 ```
 
 ### Descrição de cada item
