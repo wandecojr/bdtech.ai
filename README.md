@@ -5,10 +5,10 @@ Objetivo:
 Desenvolver um modelo de previsão de vendas (forecast) para apoiar o varejo na reposição de produtos. A tarefa é prever a quantidade semanal de vendas por PDV (Ponto de Venda) /SKU 
 Stock Keeping Unit (ou Unidade de Manutenção de Estoque) para as cinco semanas de janeiro/2023, utilizando como base o histórico de vendas de 2022.
 
-##python: 
+## Python: 
 Estou trabalhando com Python 3.13.5 (mesma versão usada do meu ambiente virtual  (venv_forecast_v*). Se você quiser reproduzir o ambiente exatamente, recomendo usar Python 3.13.x com python -m venv venv_forecast_v* 
 
-##script:
+## Script:
 forecast_pipeline_v1.py
 
 ## Estrtutura:
@@ -37,8 +37,6 @@ Este script implementa um pipeline de previsão utilizando técnicas de aprendiz
 8. **Exportação dos resultados**: Salva previsões e logs em arquivos CSV e TXT.
 
 ## Como Executar
-
-
 1. Certifique-se de que todas as dependências estão instaladas (consulte o `requirements.txt`).
     1.1 Shell
         python -m pip install -r requirements.txt
