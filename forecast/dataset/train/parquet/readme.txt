@@ -1,0 +1,3 @@
+pdvs.parquet
+produtos.parquet
+transacoes_2022.parquet
