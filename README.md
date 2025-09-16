@@ -2,13 +2,14 @@
 Desafio Técnico – Hackathon Forecast Big Data 2025
 
 Objetivo:
-Você deverá desenvolver um modelo de previsão de vendas (forecast) para apoiar o varejo na reposição de produtos. A tarefa é prever a quantidade semanal de vendas por PDV (Ponto de Venda) /SKU Stock Keeping Unit
+Desenvolver um modelo de previsão de vendas (forecast) para apoiar o varejo na reposição de produtos. A tarefa é prever a quantidade semanal de vendas por PDV (Ponto de Venda) /SKU Stock Keeping Unit
 
 (ou Unidade de Manutenção de Estoque) para as cinco semanas de janeiro/2023, utilizando como base o histórico de vendas de 2022.
 
-## Estrtutura:
+##script:
+forecast_pipeline_v1.py
 
---> forecast_pipeline_v1.py
+## Estrtutura:
 
 **Autor:** Wanderlei Soares  
 **Email:** wanderlei.junior@gmail.com
@@ -35,9 +36,6 @@ Este script implementa um pipeline de previsão utilizando técnicas de aprendiz
 
 ## Como Executar
 
-1.  Baixar as lib`s necessárias. 
-
-    
 
 1. Certifique-se de que todas as dependências estão instaladas (consulte o 
 `requirements.txt`).
